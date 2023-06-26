@@ -102,17 +102,31 @@ h1 {
 header {
     border: solid 1px black;
     height: 25vh;
-    background-color: rgb(105, 203, 255);
+    background: linear-gradient(45deg, rgb(173, 173, 230), rgb(0, 140, 255));
 }
 
 .haut {
     display: flex;
-    justify-content:center;
-    margin-top: 5vh
+    flex-direction: column-reverse;
 
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.haut h1{
+  color:white;
+  font-family: cursive;
+  text-align: center;
 }
 input{
     margin-left: 10vh;
     padding: 10px;
-    margin: 20px;
+    width: 300px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    /* margin: 20px; */
+}
+input:focus{
+  border: 2px solid cyan;
 }
