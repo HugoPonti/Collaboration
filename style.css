@@ -1,3 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
 body {
-    background-color: red;
+    background-color: rgb(253, 253, 253);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+header {
+    border: solid 1px black;
+    height: 25vh;
+    background-color: rgb(105, 203, 255);
+}
+
+.haut {
+    display: flex;
+    justify-content:center;
+    margin-top: 5vh
+
+}
+input{
+    margin-left: 10vh;
+    padding: 10px;
+    margin: 20px;
 }
