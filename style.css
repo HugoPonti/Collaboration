@@ -1,3 +1,30 @@
 body {
-    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1rem .2rem 1rem black;
+}
+
+.headerMenu__general {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+.headerMenu__general li,
+.headerMenu__connexion {
+    list-style-type: none;
+}
+
+.headerMenu__connexion a,
+.headerMenu__general a {
+    text-decoration: none;
+    color: black;
 }
